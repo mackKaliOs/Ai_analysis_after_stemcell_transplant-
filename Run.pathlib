@@ -1,0 +1,16 @@
+from pathlib import Path
+
+# Recreate the instruction content
+instructions = """\
+🛠️ TO RUN IT:
+
+1. Create folder `input_photos/` and place room photos inside.
+2. Run the script in a Python 3.9+ environment with GPU if possible.
+3. Review `environmental_analysis_report.csv` after processing.
+"""
+
+# Save instructions to a text file
+output_path = "/mnt/data/STEM_Cell_Environment_AI_Setup_Instructions.txt"
+Path(output_path).write_text(instructions)
+
+output_path
