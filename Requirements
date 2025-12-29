@@ -1,0 +1,2 @@
+reportlab>=3.6
+# Add other dependencies here if needed
